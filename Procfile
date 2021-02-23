@@ -1,1 +1,1 @@
-web:gunicorn replica:app
+web: gunicorn replica:app
