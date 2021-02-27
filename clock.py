@@ -8,17 +8,18 @@ clock = BlockingScheduler()
 def scheduled_job():
     print(">>=== APScheduler ====="+"\n")
     print("clock.py runs every AM:6.00 to PM:11.00 */20")
-    print("Current time："+f'{datetime.datetime.now().ctime()}'+"\n")
-    print("===== APScheduler ====<<")
+    print("CurrentTime："+f'{datetime.datetime.now().ctime()}')
 
     try:
         url = "https://replicabot.herokuapp.com/"
         conn = request.urlopen(url)
         servertime=conn.getheaders()[2][1]
         print("ServerTime："+servertime)
-        print("[Success]")
+        print("[Success]"+"\n")
+        print("===== APScheduler ====<<")
 
     except:
         print("[Error！]")
+        print("\n"+"===== APScheduler ====<<")
 
 clock.start()
