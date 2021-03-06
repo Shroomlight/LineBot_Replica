@@ -19,7 +19,7 @@ def scheduled_job():
         print("===== APScheduler ====<<")
 
     except:
-        print("[Error！]")
-        print("\n"+"===== APScheduler ====<<")
+        print("[Error！]"+"\n")
+        print("===== APScheduler ====<<")
 
 clock.start()

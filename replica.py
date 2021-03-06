@@ -7,8 +7,9 @@ from linebot.exceptions import (
     InvalidSignatureError
 )
 from linebot.models import (
-    MessageEvent, TextMessage, TextSendMessage,
+    MessageEvent, TextMessage, TextSendMessage, FlexSendMessage
 )
+import json
 
 app = Flask(__name__)
 
@@ -41,11 +42,17 @@ def callback():
 
 
 # 處理訊息
-@handler.add(MessageEvent, message=TextMessage)
+@handler.add(MessageEvent)
 def handle_message(event):
-    line_bot_api.reply_message(
-        event.reply_token,
-        TextSendMessage(text=event.message.text))
+    message_type = event.message.type
+    user_id = event.source.user_id
+    reply_token = event.reply_token
+    message = event.message.text
+    if(message == '屏東市天氣'):
+        FlexMessage = json.load(open('weather.json','r',encoding='utf-8'))
+        line_bot_api.reply_message(reply_token, FlexSendMessage('屏東市天氣',FlexMessage))
+    else:
+        line_bot_api.reply_message(reply_token, TextSendMessage(text=message))
 
 
 if __name__ == "__main__":
