@@ -11,6 +11,8 @@ from linebot.models import (
 )
 import json
 
+import codecs
+
 app = Flask(__name__)
 
 line_bot_api = LineBotApi('gd8r9kQxyrGZrb4phBaA57fHMWY/P9jbMlX5O7REEYn9z3og6TvYtX5WyENXYOKBx0BL3LmumGNaTkOfSpNakhz+aqsd9d2vUCr7SbFH1saibQFwGOO0KHQu5JnAJNAqQYYZp+DVfVwj5Q22+OHY7AdB04t89/1O/w1cDnyilFU=')
@@ -49,7 +51,7 @@ def handle_message(event):
     reply_token = event.reply_token
     message = event.message.text
     if(message == '屏東市天氣'):
-        FlexMessage = json.load(open('weather.json','r',decode='utf-8'))
+        FlexMessage = json.load(codecs.open('weather.json','r','utf-8-sig'))
         line_bot_api.reply_message(reply_token, FlexSendMessage('屏東市天氣',FlexMessage))
     else:
         line_bot_api.reply_message(reply_token, TextSendMessage(text=message))
