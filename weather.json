@@ -1,195 +1,242 @@
 ﻿{
     "type": "carousel",
-    "contents": [{
-            "type": "bubble",
-            "size": "nano",
-            "header": {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [{
-                        "type": "text",
-                        "text": "晴天",
-                        "color": "#ffffff",
-                        "align": "start",
-                        "size": "md",
-                        "gravity": "center"
-                    },
+    "contents": [
+      {
+        "type": "bubble",
+        "size": "nano",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "In Progress",
+              "color": "#ffffff",
+              "align": "start",
+              "size": "md",
+              "gravity": "center"
+            },
+            {
+              "type": "text",
+              "text": "70%",
+              "color": "#ffffff",
+              "align": "start",
+              "size": "xs",
+              "gravity": "center",
+              "margin": "lg"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
                     {
-                        "type": "text",
-                        "text": "30°C",
-                        "color": "#ffffff",
-                        "align": "start",
-                        "size": "xs",
-                        "gravity": "center",
-                        "margin": "xs"
-                    },
-                    {
-                        "type": "box",
-                        "layout": "vertical",
-                        "contents": [{
-                            "type": "box",
-                            "layout": "vertical",
-                            "contents": [{
-                                "type": "filler"
-                            }],
-                            "width": "80%",
-                            "backgroundColor": "#DE5658",
-                            "height": "6px"
-                        }],
-                        "backgroundColor": "#FAD2A76E",
-                        "height": "6px",
-                        "margin": "sm"
+                      "type": "filler"
                     }
-                ],
-                "backgroundColor": "#FF6B6E",
-                "paddingTop": "16px",
-                "paddingAll": "15px",
-                "paddingBottom": "16px"
-            },
-            "body": {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [{
-                    "type": "box",
-                    "layout": "horizontal",
-                    "contents": [{
-                        "type": "text",
-                        "text": "2021 / 03 / 03 12:00至18:00",
-                        "color": "#8C8C8C",
-                        "size": "sm",
-                        "wrap": true
-                    }],
-                    "flex": 1
-                }],
-                "spacing": "md",
-                "paddingAll": "12px"
-            },
-            "styles": {
-                "footer": {
-                    "separator": false
+                  ],
+                  "width": "70%",
+                  "backgroundColor": "#0D8186",
+                  "height": "6px"
                 }
+              ],
+              "backgroundColor": "#9FD8E36E",
+              "height": "6px",
+              "margin": "sm"
             }
+          ],
+          "backgroundColor": "#27ACB2",
+          "paddingTop": "19px",
+          "paddingAll": "12px",
+          "paddingBottom": "16px"
         },
-        {
-            "type": "bubble",
-            "size": "nano",
-            "header": {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [{
-                        "type": "text",
-                        "text": "降雨機率",
-                        "color": "#ffffff",
-                        "align": "start",
-                        "size": "xl",
-                        "gravity": "center"
-                    },
-                    {
-                        "type": "text",
-                        "text": "100%",
-                        "color": "#ffffff",
-                        "align": "start",
-                        "size": "xs",
-                        "gravity": "center",
-                        "margin": "lg"
-                    },
-                    {
-                        "type": "box",
-                        "layout": "vertical",
-                        "contents": [{
-                            "type": "box",
-                            "layout": "vertical",
-                            "contents": [{
-                                "type": "filler"
-                            }],
-                            "width": "100%",
-                            "backgroundColor": "#3B76AF",
-                            "height": "6px"
-                        }],
-                        "backgroundColor": "#63A9EC",
-                        "height": "6px",
-                        "margin": "sm"
-                    }
-                ],
-                "backgroundColor": "#458bce",
-                "paddingTop": "19px",
-                "paddingAll": "12px",
-                "paddingBottom": "24px"
-            },
-            "body": {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [{
-                    "type": "box",
-                    "layout": "horizontal",
-                    "contents": [{
-                        "type": "text",
-                        "text": "注意事項：\n下雨機率高\n需具備雨傘\n當心天雨路滑",
-                        "color": "#8C8C8C",
-                        "size": "sm",
-                        "wrap": true
-                    }],
-                    "flex": 1
-                }],
-                "spacing": "md",
-                "paddingAll": "12px"
-            },
-            "styles": {
-                "footer": {
-                    "separator": false
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Buy milk and lettuce before class",
+                  "color": "#8C8C8C",
+                  "size": "sm",
+                  "wrap": true
                 }
+              ],
+              "flex": 1
             }
+          ],
+          "spacing": "md",
+          "paddingAll": "12px"
         },
-        {
-            "type": "bubble",
-            "size": "nano",
-            "header": {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [{
-                        "type": "text",
-                        "text": "最高溫度",
-                        "color": "#ffffff",
-                        "align": "start",
-                        "size": "xl",
-                        "gravity": "center"
-                    },
-                    {
-                        "type": "text",
-                        "text": "18°C",
-                        "color": "#ffffff",
-                        "margin": "none",
-                        "size": "3xl"
-                    }
-                ],
-                "backgroundColor": "#FF8033",
-                "paddingTop": "19px",
-                "paddingAll": "12px",
-                "paddingBottom": "16px"
-            },
-            "body": {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [{
-                    "type": "box",
-                    "layout": "horizontal",
-                    "contents": [{
-                        "type": "text",
-                        "text": "最低溫度：\n15°C\n舒適度：\n舒適",
-                        "color": "#8C8C8C",
-                        "size": "sm",
-                        "wrap": true
-                    }],
-                    "flex": 1
-                }],
-                "spacing": "md",
-                "paddingAll": "12px"
-            },
-            "styles": {
-                "footer": {
-                    "separator": false
-                }
-            }
+        "styles": {
+          "footer": {
+            "separator": false
+          }
         }
+      },
+      {
+        "type": "bubble",
+        "size": "nano",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "Pending",
+              "color": "#ffffff",
+              "align": "start",
+              "size": "md",
+              "gravity": "center"
+            },
+            {
+              "type": "text",
+              "text": "30%",
+              "color": "#ffffff",
+              "align": "start",
+              "size": "xs",
+              "gravity": "center",
+              "margin": "lg"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "filler"
+                    }
+                  ],
+                  "width": "30%",
+                  "backgroundColor": "#DE5658",
+                  "height": "6px"
+                }
+              ],
+              "backgroundColor": "#FAD2A76E",
+              "height": "6px",
+              "margin": "sm"
+            }
+          ],
+          "backgroundColor": "#FF6B6E",
+          "paddingTop": "19px",
+          "paddingAll": "12px",
+          "paddingBottom": "16px"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Wash my car",
+                  "color": "#8C8C8C",
+                  "size": "sm",
+                  "wrap": true
+                }
+              ],
+              "flex": 1
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "12px"
+        },
+        "styles": {
+          "footer": {
+            "separator": false
+          }
+        }
+      },
+      {
+        "type": "bubble",
+        "size": "nano",
+        "header": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "In Progress",
+              "color": "#ffffff",
+              "align": "start",
+              "size": "md",
+              "gravity": "center"
+            },
+            {
+              "type": "text",
+              "text": "100%",
+              "color": "#ffffff",
+              "align": "start",
+              "size": "xs",
+              "gravity": "center",
+              "margin": "lg"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "filler"
+                    }
+                  ],
+                  "width": "100%",
+                  "backgroundColor": "#7D51E4",
+                  "height": "6px"
+                }
+              ],
+              "backgroundColor": "#9FD8E36E",
+              "height": "6px",
+              "margin": "sm"
+            }
+          ],
+          "backgroundColor": "#A17DF5",
+          "paddingTop": "19px",
+          "paddingAll": "12px",
+          "paddingBottom": "16px"
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Buy milk and lettuce before class",
+                  "color": "#8C8C8C",
+                  "size": "sm",
+                  "wrap": true
+                }
+              ],
+              "flex": 1
+            }
+          ],
+          "spacing": "md",
+          "paddingAll": "12px"
+        },
+        "styles": {
+          "footer": {
+            "separator": false
+          }
+        }
+      }
     ]
-}
+  }
