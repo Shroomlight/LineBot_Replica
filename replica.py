@@ -51,7 +51,7 @@ def handle_message(event):
     reply_token = event.reply_token
     message = event.message.text
     if(message == '屏東市天氣'):
-        FlexMessage = json.load(codecs.open('test.json','r','utf-8-sig'))
+        FlexMessage = json.load(codecs.open('weather.json','r','utf-8-sig'))
         line_bot_api.reply_message(reply_token, FlexSendMessage('屏東市天氣',FlexMessage))
     else:
         line_bot_api.reply_message(reply_token, TextSendMessage(text=message))
