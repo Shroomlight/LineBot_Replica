@@ -1,84 +1,62 @@
 ﻿{
-    "type": "carousel",
-    "contents": [
-      {
-        "type": "bubble",
-        "size": "nano",
-        "header": {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
           "type": "box",
           "layout": "vertical",
           "contents": [
             {
-              "type": "text",
-              "text": "In Progress",
-              "color": "#ffffff",
-              "align": "start",
-              "size": "md",
-              "gravity": "center"
-            },
+              "type": "image",
+              "url": "https://sv1.picz.in.th/images/2020/02/29/x8qxLa.jpg",
+              "aspectRatio": "341:148",
+              "size": "full"
+            }
+          ],
+          "position": "absolute",
+          "height": "110px",
+          "width": "260px",
+          "offsetTop": "22px",
+          "offsetStart": "22px"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
             {
-              "type": "text",
-              "text": "70%",
-              "color": "#ffffff",
-              "align": "start",
-              "size": "xs",
-              "gravity": "center",
-              "margin": "lg"
+              "type": "box",
+              "layout": "vertical",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "3 กก xxxx",
+                  "align": "center",
+                  "size": "4xl",
+                  "weight": "bold"
+                }
+              ]
             },
             {
               "type": "box",
               "layout": "vertical",
               "contents": [
                 {
-                  "type": "box",
-                  "layout": "vertical",
-                  "contents": [
-                    {
-                      "type": "filler"
-                    }
-                  ],
-                  "width": "70%",
-                  "backgroundColor": "#0D8186",
-                  "height": "6px"
-                }
-              ],
-              "backgroundColor": "#9FD8E36E",
-              "height": "6px",
-              "margin": "sm"
-            }
-          ],
-          "backgroundColor": "#27ACB2",
-          "paddingTop": "19px",
-          "paddingAll": "12px",
-          "paddingBottom": "16px"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
                   "type": "text",
-                  "text": "Buy milk and lettuce before class",
-                  "color": "#8C8C8C",
-                  "size": "sm",
-                  "wrap": "True"
+                  "text": "กรุงเทพมหานคร",
+                  "align": "center",
+                  "size": "xl"
                 }
-              ],
-              "flex": 1
+              ]
             }
           ],
-          "spacing": "md",
-          "paddingAll": "12px"
-        },
-        "styles": {
-          "footer": {
-            "separator": "False"
-          }
+          "borderWidth": "5px",
+          "borderColor": "#000000",
+          "cornerRadius": "10px",
+          "paddingAll": "5px"
         }
-      }
-    ]
+      ],
+      "borderColor": "#000000"
+    }
   }
