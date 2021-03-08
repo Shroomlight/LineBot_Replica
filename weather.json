@@ -3,27 +3,17 @@
     "contents": [
       {
         "type": "bubble",
-        "size": "nano",
-        "header": {
+        "body": {
           "type": "box",
           "layout": "vertical",
           "contents": [
             {
-              "type": "text",
-              "text": "In Progress",
-              "color": "#ffffff",
-              "align": "start",
-              "size": "md",
-              "gravity": "center"
-            },
-            {
-              "type": "text",
-              "text": "70%",
-              "color": "#ffffff",
-              "align": "start",
-              "size": "xs",
-              "gravity": "center",
-              "margin": "lg"
+              "type": "image",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip1.jpg",
+              "size": "full",
+              "aspectMode": "cover",
+              "aspectRatio": "2:3",
+              "gravity": "top"
             },
             {
               "type": "box",
@@ -34,75 +24,126 @@
                   "layout": "vertical",
                   "contents": [
                     {
+                      "type": "text",
+                      "text": "Brown's T-shirts",
+                      "size": "xl",
+                      "color": "#ffffff",
+                      "weight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "¥35,800",
+                      "color": "#ebebeb",
+                      "size": "sm",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "¥75,000",
+                      "color": "#ffffffcc",
+                      "decoration": "line-through",
+                      "gravity": "bottom",
+                      "flex": 0,
+                      "size": "sm"
+                    }
+                  ],
+                  "spacing": "lg"
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "contents": [
+                    {
+                      "type": "filler"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "baseline",
+                      "contents": [
+                        {
+                          "type": "filler"
+                        },
+                        {
+                          "type": "icon",
+                          "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip14.png"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Add to cart",
+                          "color": "#ffffff",
+                          "flex": 0,
+                          "offsetTop": "-2px"
+                        },
+                        {
+                          "type": "filler"
+                        }
+                      ],
+                      "spacing": "sm"
+                    },
+                    {
                       "type": "filler"
                     }
                   ],
-                  "width": "70%",
-                  "backgroundColor": "#0D8186",
-                  "height": "6px"
+                  "borderWidth": "1px",
+                  "cornerRadius": "4px",
+                  "spacing": "sm",
+                  "borderColor": "#ffffff",
+                  "margin": "xxl",
+                  "height": "40px"
                 }
               ],
-              "backgroundColor": "#9FD8E36E",
-              "height": "6px",
-              "margin": "sm"
-            }
-          ],
-          "backgroundColor": "#27ACB2",
-          "paddingTop": "19px",
-          "paddingAll": "12px",
-          "paddingBottom": "16px"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
+              "position": "absolute",
+              "offsetBottom": "0px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px",
+              "backgroundColor": "#03303Acc",
+              "paddingAll": "20px",
+              "paddingTop": "18px"
+            },
             {
               "type": "box",
-              "layout": "horizontal",
+              "layout": "vertical",
               "contents": [
                 {
                   "type": "text",
-                  "text": "Buy milk and lettuce before class",
-                  "color": "#8C8C8C",
-                  "size": "sm",
-                  "wrap": true
+                  "text": "SALE",
+                  "color": "#ffffff",
+                  "align": "center",
+                  "size": "xs",
+                  "offsetTop": "3px"
                 }
               ],
-              "flex": 1
+              "position": "absolute",
+              "cornerRadius": "20px",
+              "offsetTop": "18px",
+              "backgroundColor": "#ff334b",
+              "offsetStart": "18px",
+              "height": "25px",
+              "width": "53px"
             }
           ],
-          "spacing": "md",
-          "paddingAll": "12px"
-        },
-        "styles": {
-          "footer": {
-            "separator": false
-          }
+          "paddingAll": "0px"
         }
       },
       {
         "type": "bubble",
-        "size": "nano",
-        "header": {
+        "body": {
           "type": "box",
           "layout": "vertical",
           "contents": [
             {
-              "type": "text",
-              "text": "Pending",
-              "color": "#ffffff",
-              "align": "start",
-              "size": "md",
-              "gravity": "center"
-            },
-            {
-              "type": "text",
-              "text": "30%",
-              "color": "#ffffff",
-              "align": "start",
-              "size": "xs",
-              "gravity": "center",
-              "margin": "lg"
+              "type": "image",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip2.jpg",
+              "size": "full",
+              "aspectMode": "cover",
+              "aspectRatio": "2:3",
+              "gravity": "top"
             },
             {
               "type": "box",
@@ -113,129 +154,111 @@
                   "layout": "vertical",
                   "contents": [
                     {
-                      "type": "filler"
+                      "type": "text",
+                      "text": "Cony's T-shirts",
+                      "size": "xl",
+                      "color": "#ffffff",
+                      "weight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "baseline",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "¥35,800",
+                      "color": "#ebebeb",
+                      "size": "sm",
+                      "flex": 0
+                    },
+                    {
+                      "type": "text",
+                      "text": "¥75,000",
+                      "color": "#ffffffcc",
+                      "decoration": "line-through",
+                      "gravity": "bottom",
+                      "flex": 0,
+                      "size": "sm"
                     }
                   ],
-                  "width": "30%",
-                  "backgroundColor": "#DE5658",
-                  "height": "6px"
-                }
-              ],
-              "backgroundColor": "#FAD2A76E",
-              "height": "6px",
-              "margin": "sm"
-            }
-          ],
-          "backgroundColor": "#FF6B6E",
-          "paddingTop": "19px",
-          "paddingAll": "12px",
-          "paddingBottom": "16px"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "box",
-              "layout": "horizontal",
-              "contents": [
-                {
-                  "type": "text",
-                  "text": "Wash my car",
-                  "color": "#8C8C8C",
-                  "size": "sm",
-                  "wrap": true
-                }
-              ],
-              "flex": 1
-            }
-          ],
-          "spacing": "md",
-          "paddingAll": "12px"
-        },
-        "styles": {
-          "footer": {
-            "separator": false
-          }
-        }
-      },
-      {
-        "type": "bubble",
-        "size": "nano",
-        "header": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "In Progress",
-              "color": "#ffffff",
-              "align": "start",
-              "size": "md",
-              "gravity": "center"
-            },
-            {
-              "type": "text",
-              "text": "100%",
-              "color": "#ffffff",
-              "align": "start",
-              "size": "xs",
-              "gravity": "center",
-              "margin": "lg"
-            },
-            {
-              "type": "box",
-              "layout": "vertical",
-              "contents": [
+                  "spacing": "lg"
+                },
                 {
                   "type": "box",
                   "layout": "vertical",
                   "contents": [
                     {
                       "type": "filler"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "baseline",
+                      "contents": [
+                        {
+                          "type": "filler"
+                        },
+                        {
+                          "type": "icon",
+                          "url": "https://scdn.line-apps.com/n/channel_devcenter/img/flexsnapshot/clip/clip14.png"
+                        },
+                        {
+                          "type": "text",
+                          "text": "Add to cart",
+                          "color": "#ffffff",
+                          "flex": 0,
+                          "offsetTop": "-2px"
+                        },
+                        {
+                          "type": "filler"
+                        }
+                      ],
+                      "spacing": "sm"
+                    },
+                    {
+                      "type": "filler"
                     }
                   ],
-                  "width": "100%",
-                  "backgroundColor": "#7D51E4",
-                  "height": "6px"
+                  "borderWidth": "1px",
+                  "cornerRadius": "4px",
+                  "spacing": "sm",
+                  "borderColor": "#ffffff",
+                  "margin": "xxl",
+                  "height": "40px"
                 }
               ],
-              "backgroundColor": "#9FD8E36E",
-              "height": "6px",
-              "margin": "sm"
-            }
-          ],
-          "backgroundColor": "#A17DF5",
-          "paddingTop": "19px",
-          "paddingAll": "12px",
-          "paddingBottom": "16px"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
+              "position": "absolute",
+              "offsetBottom": "0px",
+              "offsetStart": "0px",
+              "offsetEnd": "0px",
+              "backgroundColor": "#9C8E7Ecc",
+              "paddingAll": "20px",
+              "paddingTop": "18px"
+            },
             {
               "type": "box",
-              "layout": "horizontal",
+              "layout": "vertical",
               "contents": [
                 {
                   "type": "text",
-                  "text": "Buy milk and lettuce before class",
-                  "color": "#8C8C8C",
-                  "size": "sm",
-                  "wrap": true
+                  "text": "SALE",
+                  "color": "#ffffff",
+                  "align": "center",
+                  "size": "xs",
+                  "offsetTop": "3px"
                 }
               ],
-              "flex": 1
+              "position": "absolute",
+              "cornerRadius": "20px",
+              "offsetTop": "18px",
+              "backgroundColor": "#ff334b",
+              "offsetStart": "18px",
+              "height": "25px",
+              "width": "53px"
             }
           ],
-          "spacing": "md",
-          "paddingAll": "12px"
-        },
-        "styles": {
-          "footer": {
-            "separator": false
-          }
+          "paddingAll": "0px"
         }
       }
     ]
