@@ -63,7 +63,7 @@ def handle_message(event):
         cwbdata="https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-850C0B7B-8172-4E44-AE39-5023FC83C899&locationName="+cityNameUrl
         
         #打開CWB的json資料
-        with request.urlopen(cwbdata) as response :
+        with urlrequest.urlopen(cwbdata) as response :
             data=json.load(response)
         value=data["records"]["location"][0]['weatherElement'][0]['time'][0]['parameter']['parameterValue']
         startTime=(data["records"]["location"][0]['weatherElement'][0]['time'][0]['startTime'])
